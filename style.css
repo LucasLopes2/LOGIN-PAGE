@@ -1,0 +1,81 @@
+@charset "utf-8";
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(59, 228, 228, 0.966), rgba(255, 0, 0, 0.685));
+}
+h1{
+    padding: 10px;
+    top: 50px;
+    position: relative;
+    font-size: 3em;
+    font-family: cursive;
+
+}
+.hed{
+    
+    padding: 5px;
+    top: 20px;
+    position: relative;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: rgba(112, 111, 111, 0.863);
+    color: rgb(255, 255, 255);
+    padding: 0 60px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.295);
+    height: 40px;
+}
+form input{
+    
+    border-color: rgb(206, 204, 204);
+    border-radius: 5px;
+    height: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(8, 82, 82, 0.973);
+}
+.container{
+    font-size: 1.3em;
+    color: white;
+    position: relative;
+   right: 66px;
+   top: 15px;
+}
+.esquece{
+    position: relative;
+    bottom: 15px;
+}
+::placeholder{
+    color: #777;
+    font-size:  1.063em;
+}
+.image{
+    position: relative;
+    bottom: 5px;
+}
+.img1{
+    
+    position: relative;
+    right: 45px;
+    bottom: 5px;
+}
+.img2{
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+}
+
+   
+
+
